@@ -1,0 +1,22 @@
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-container__image {
+  width: 200px;
+  height: 300px;
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.project-container__image:hover {
+  transform: scale(1.2);
+}
+
+.typography__blue {
+  color: rgb(0, 119, 255);
+  display: flex;
+  justify-content: center;
+}

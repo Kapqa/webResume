@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Monrope";
+  font-weight: 200;
+  font-style: normal;
+  src: url(../assets/fonts/Monrope-ExtraLight.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Monrope";
+  font-weight: 300;
+  font-style: normal;
+  src: url(../assets/fonts/Monrope-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Monrope";
+  font-weight: 400;
+  font-style: normal;
+  src: url(../assets/fonts/Monrope-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Monrope";
+  font-weight: 500;
+  font-style: normal;
+  src: url(../assets/fonts/Monrope-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Monrope";
+  font-weight: 600;
+  font-style: normal;
+  src: url(../assets/fonts/Monrope-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Monrope";
+  font-weight: 700;
+  font-style: normal;
+  src: url(../assets/fonts/Monrope-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Monrope";
+  font-weight: 800;
+  font-style: normal;
+  src: url(../assets/fonts/Monrope-ExtraBold.ttf) format("truetype");
+}

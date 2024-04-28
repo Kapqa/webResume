@@ -1,0 +1,10 @@
+html,
+body {
+  height: 100%;
+  font-family: "Manrope", -apple-system, "BlinkMacSystemFont", system-ui,
+    "Roboto", "Segoe UI", "Helvetica Neue", sans-serif;
+}
+
+#root {
+  height: 100%;
+}

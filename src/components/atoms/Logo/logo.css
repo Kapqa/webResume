@@ -1,0 +1,28 @@
+.logo {
+  border-radius: 100%;
+  object-fit: contain;
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+
+.logo[data-size="xs"] {
+  width: 30px;
+  height: 30px;
+}
+.logo[data-size="s"] {
+  width: 60px;
+  height: 60px;
+}
+.logo[data-size="m"] {
+  width: 100px;
+  height: 100px;
+}
+.logo[data-size="l"] {
+  width: 150px;
+  height: 150px;
+}
+.logo[data-size="xl"] {
+  width: 200px;
+  height: 200px;
+}

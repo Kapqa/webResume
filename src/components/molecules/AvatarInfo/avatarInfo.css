@@ -1,0 +1,31 @@
+.avatar-info {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.avatar-info__avatar-container {
+  width: 300px;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.avatar-info__info-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.avatar-info__text_green {
+  color: var(--primary-color);
+}
+
+.avatar-info__text_white {
+  color: var(--base-color);
+}

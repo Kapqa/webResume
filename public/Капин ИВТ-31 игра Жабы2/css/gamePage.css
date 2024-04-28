@@ -1,0 +1,203 @@
+.game-page {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+  overflow: hidden;
+}
+
+.game-page__background {
+  position: absolute;
+  z-index: 1;
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+  pointer-events: none;
+}
+
+.game-page__timer {
+  position: absolute;
+  z-index: 2;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgba(0, 0, 0, 0.6);
+  min-width: 200px;
+  padding: 15px 30px;
+  border-radius: 15px;
+
+  color: #fff;
+  font-size: 30px;
+  backdrop-filter: blur(20px);
+}
+
+.game-page__back {
+  position: absolute;
+  z-index: 2;
+  top: 20px;
+  left: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px 30px;
+  border-radius: 15px;
+
+  color: #fff;
+  font-size: 30px;
+  backdrop-filter: blur(20px);
+  cursor: pointer;
+
+  transition: background-color 0.2s ease-in-out;
+}
+
+.game-page__back:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.game-page__restart {
+  position: absolute;
+  z-index: 2;
+  top: 20px;
+  right: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px 30px;
+  border-radius: 15px;
+
+  color: #fff;
+  font-size: 30px;
+  backdrop-filter: blur(20px);
+  cursor: pointer;
+
+  transition: background-color 0.2s ease-in-out;
+}
+
+.game-page__restart:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.game-page__frogs-wrapper {
+  position: absolute;
+  z-index: 2;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.game-page__frog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  will-change: transform;
+  user-select: none;
+
+  position: absolute;
+  transition: transform 0.1s ease-in-out;
+}
+
+.game-page__frog-image {
+  width: 100%;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+.game-page__dialog-bg {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(20px);
+}
+
+.game-page__dialog-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 400px;
+}
+
+.game-page__dialog-title {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.game-page__dialog-button {
+  width: 100%;
+
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  padding: 15px 0;
+
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+
+  transition: background-color 0.2s ease-in-out;
+}
+
+.game-page__dialog-button ~ .game-page__dialog-button {
+  margin-top: 20px;
+}
+
+.game-page__dialog-button:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 860px) {
+  .game-page__timer {
+    display: none;
+    visibility: hidden;
+    user-select: none;
+    pointer-events: none;
+  }
+
+  .game-page__back,
+  .game-page__restart {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .game-page__dialog-content-wrapper {
+	padding: 10px;
+  }
+
+  .game-page__dialog-title {
+	font-size: 25px;
+  }
+
+  .game-page__dialog-button {
+	font-size: 20px;
+  }
+
+  .game-page__dialog-button ~ .game-page__dialog-button {
+	margin-top: 10px;
+  }
+}

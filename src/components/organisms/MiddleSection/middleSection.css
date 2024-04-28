@@ -1,0 +1,10 @@
+.middle-section__standart {
+  background-color: #000000;
+  margin: 6px;
+}
+
+.middle-section__container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}

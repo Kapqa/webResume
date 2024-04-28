@@ -1,0 +1,8 @@
+.occupation {
+  display: flex;
+  width: 60%;
+}
+
+.typography__white {
+  color: white;
+}

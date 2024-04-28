@@ -1,0 +1,19 @@
+.bg-vk {
+  background-color: blue;
+}
+
+.bg-steam {
+  background-color: rgb(0, 0, 0);
+}
+
+.bg-facebook {
+  background-color: rgb(65, 86, 156);
+}
+
+.bg-github {
+  background-color: rgb(0, 0, 0);
+}
+
+.homepage-card-title {
+  color: white;
+}

@@ -1,0 +1,14 @@
+.contacts {
+  display: flex;
+  width: 40%;
+  justify-content: left;
+}
+
+.typography__glow {
+  color: white;
+  transition: color 0.3s ease-in-out;
+}
+
+.typography__glow:hover {
+  color: rgb(3, 184, 3);
+}

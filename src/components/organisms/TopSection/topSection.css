@@ -1,0 +1,19 @@
+.top-section__standart-image {
+  background-image: url(https://cdn.donmai.us/original/5a/92/__original_drawn_by_mamei_mema__5a92e5ce19a1883c8d72f693c3287c1a.jpg);
+  background-color: #000000d9;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 5% 0% 20% 0%;
+}
+
+.top-section__different-image {
+  background-image: url(https://images.hdqwalls.com/download/student-life-minimalism-2560x1700.jpg);
+  background-color: #000000d9;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 5% 0% 20% 0%;
+}
